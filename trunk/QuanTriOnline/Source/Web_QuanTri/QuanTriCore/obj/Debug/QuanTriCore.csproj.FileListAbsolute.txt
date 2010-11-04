@@ -1,0 +1,5 @@
+C:\Users\tuanpv\Desktop\QuanTriOnline\QuanTriOnline\Source\Web_QuanTri\QuanTriCore\bin\Debug\QuanTriCore.dll
+C:\Users\tuanpv\Desktop\QuanTriOnline\QuanTriOnline\Source\Web_QuanTri\QuanTriCore\bin\Debug\QuanTriCore.pdb
+C:\Users\tuanpv\Desktop\QuanTriOnline\QuanTriOnline\Source\Web_QuanTri\QuanTriCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tuanpv\Desktop\QuanTriOnline\QuanTriOnline\Source\Web_QuanTri\QuanTriCore\obj\Debug\QuanTriCore.dll
+C:\Users\tuanpv\Desktop\QuanTriOnline\QuanTriOnline\Source\Web_QuanTri\QuanTriCore\obj\Debug\QuanTriCore.pdb
