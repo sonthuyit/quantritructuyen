@@ -1,0 +1,516 @@
+﻿body
+{
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	background-color: #1f1f21;
+	margin: 0px;
+}
+
+input, textarea
+{
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+a
+{
+	text-decoration: none; /*color: #2864b4;*/
+	color: #00679b;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #00679b;
+}
+
+.hdmenu
+{
+	background-color: #3B3B3B;
+	font-size: 12px;
+	position: absolute;
+	visibility: hidden;
+	width: 150px;
+}
+.hdmenuAc
+{
+	background-color: #4B4B4B;
+	font-size: 12px;
+	position: absolute;
+	visibility: visible;
+	width: 150px;
+	z-index: 999;
+	border: solid 1px #4B4B4B;
+	border-top: none;
+}
+
+a.aItemSmenu
+{
+	color: Black;
+	background-color: #D2D2D2;
+	height: 20px;
+	margin-top: 1px;
+	padding: 5px 10px;
+	width: 130px;
+	height: 15px;
+	display: block;
+}
+
+a.aItemSmenu:hover
+{
+	color: White;
+	background-color: #4B4B4B;
+	text-decoration: underline;
+}
+
+.divparent
+{
+	margin: auto;
+	width: 980px;
+	background-color: #1f1f21;
+}
+
+.divcentermenu
+{
+	background-image: url(../../images/menu-repeat.jpg);
+	background-repeat: repeat-x;
+	width: 980px;
+	height: 36px;
+	float: left;
+	clear: left;
+}
+
+.divitemmenu
+{
+	height: 32px;
+	float: left;
+	clear: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.divitemmenuAc
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 32px;
+	float: left;
+	clear: right;
+}
+
+.divtextmenu
+{
+	text-align: center;
+}
+
+.lblmenu
+{
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 12px;
+	color: #FFF;
+}
+
+.lblmenuAc
+{
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 12px;
+	color: #fff200;
+}
+
+a.lbltextmenu, a.lbltextmenuAc
+{
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	_display: inline-block;
+}
+
+a.lbltextmenu
+{
+	color: #FFF;
+}
+
+a.lbltextmenuAc
+{
+	color: #fff200;
+}
+
+a.lbltextmenu:hover, a.lbltextmenuAc:hover
+{
+	color: #fff200;
+	text-decoration: none;
+}
+
+.divitemSmenu
+{
+	background-color: #D2D2D2;
+	height: 20px;
+	margin-top: 1px;
+	padding-left: 5px;
+	padding-top: 4px;
+	width: 145px;
+}
+
+.divcolum
+{
+	float: left;
+	clear: right;
+}
+
+.divbody
+{
+	width: 980px;
+	overflow: hidden;
+}
+
+.top_support_left
+{
+	background-image: url(../../images/boxtop_header_left.jpg);
+	float: left;
+	width: 8px;
+	height: 31px;
+}
+
+.top_support_center
+{
+	background-image: url(../../images/boxtop_header_repeat.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	width: 164px;
+	height: 31px;
+}
+
+.top_support_body
+{
+	background-image: url(../../images/boxtop_middle_repeat.jpg);
+	background-repeat: repeat-y;
+	width: 180px;
+	color: #00679b;
+}
+
+.top_support_right
+{
+	background-image: url(../../images/boxtop_header_right.jpg);
+	float: left;
+	width: 8px;
+	height: 31px;
+}
+
+.top_support_title
+{
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 27px;
+}
+
+.top_news_left
+{
+	background-image: url(../../images/boxlist_header_left.jpg);
+	float: left;
+	width: 10px;
+	height: 34px;
+}
+
+.top_news_center
+{
+	background-image: url(../../images/boxlist_header_repeat.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	width: 280px;
+	height: 34px;
+}
+.top_news_center_AssHome
+{
+	background-image: url(../../images/boxlist_header_repeat.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	width: 200px;
+	height: 34px;
+}
+.top_news_body
+{
+	background-image: url(../../images/boxlist_middle_repeat.jpg);
+	background-repeat: repeat-y;
+	float: left;
+	width: 300px;
+	color: #00679b;
+}
+
+.top_news_body_AssHome
+{
+	background: url(../../images/boxlist_middle_repeat_220.jpg);
+	background-repeat: repeat-y;
+	float: left;
+	width: 220px;
+	color: #00679b;
+}
+.top_news_right
+{
+	background-image: url(../../images/boxlist_header_right.jpg);
+	float: left;
+	width: 10px;
+	height: 34px;
+}
+
+.top_news_title
+{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.Topcoin1left
+{
+	background-image: url(../../images/support_header_left.jpg);
+	float: left;
+	width: 6px;
+	height: 28px;
+}
+
+.Topcoin1center
+{
+	background-image: url(../../images/support_header_repeat.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	width: 168px;
+	height: 28px;
+}
+
+.Topcoin1right
+{
+	background-image: url(../../images/support_header_right.jpg);
+	float: left;
+	width: 6px;
+	height: 28px;
+}
+
+.Topcoin1row
+{
+	margin-left: 10px;
+	font-size: 12px;
+	width: 150px;
+	background-color: rgb(0, 0, 0);
+	margin-top: 10px;
+	height: 30px;
+	line-height: 30px;
+	color: #FFF;
+	padding-left: 10px;
+}
+
+
+a.TopCoin1Link
+{
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	height: 30px;
+	text-decoration: none;
+	width: 100%;
+}
+
+a.TopCoin1Link:hover
+{
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	height: 30px;
+	text-decoration: underline;
+	width: 100%;
+}
+a.TopCoin1LinkSupport
+{
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	height: 30px;
+	text-decoration: none;
+	width: 100%;
+}
+
+a.TopCoin1LinkSupport:hover
+{
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	height: 30px;
+	text-decoration: underline;
+	width: 100%;
+}
+
+.Topcoin1row:hover
+{
+	margin-left: 10px;
+	font-size: 12px;
+	width: 150px;
+	background-color: #222;
+	margin-top: 10px;
+	height: 30px;
+	line-height: 30px;
+	color: #FFF;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.Topcoin1Head
+{
+	width: 5px;
+	height: 5px;
+	margin-top: 12px;
+	font-size: 0px;
+	float: left;
+	background: #BBA600;
+	margin-right: 10px;
+}
+
+.titletopcoin
+{
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.box_content_header
+{
+	font-size: 14px;
+	font-weight: bold; /*padding-left: 25px;*/
+	margin-top: 8px;
+	float: left;
+}
+
+.toptableMss
+{
+	background-color: #990000;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	height: 16px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.bgktopcoin
+{
+	font-size: 11px;
+	color: #656565;
+}
+
+.divClear
+{
+	/*float: left;*/
+	clear: both;
+	font-size: 0;
+	height: 0px;
+}
+
+.divClear5
+{
+	/*float: left;*/
+	clear: both;
+	font-size: 0;
+	height: 5px;
+}
+
+.divClear10
+{
+	/*float: left;*/
+	clear: both;
+	font-size: 0;
+	height: 10px;
+}
+
+
+
+/*=================Dung tao border cho cac avatar 60x60 va 80x80=================*/
+
+.imgAvatar40
+{
+	border: solid 1px #C2C2C2;
+	padding: 1px;
+	width: 40px;
+	height: 40px;
+}
+
+.imgAvatar40 a
+{
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	font-size: 12px;
+	color: Black;
+}
+
+.imgAvatar40 img, .imgAvatar40 span
+{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+
+.imgAvatar60
+{
+	border: solid 1px #C2C2C2;
+	padding: 1px;
+	width: 60px;
+	height: 60px;
+}
+
+.imgAvatar60 a
+{
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 12px;
+	color: Black;
+}
+
+.imgAvatar60 img, .imgAvatar60 span
+{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border: none;
+}
+
+.imgAvatar80
+{
+	border: solid 1px #C2C2C2;
+	padding: 2px;
+	width: 80px;
+	height: 80px;
+}
+
+.imgAvatar80 a
+{
+	display: block;
+	width: 80px;
+	height: 80px;
+	text-decoration: none;
+	font-size: 12px;
+	color: Black;
+}
+
+.imgAvatar80 img, .imgAvatar80 span
+{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border: none;
+}
+/*=======================================Het=======================================*/
